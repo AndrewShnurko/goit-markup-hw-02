@@ -24,6 +24,10 @@ ul {
 .logo {
    color:var(--title-text-color);
    font-family: 'Raleway';
+   font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 .first-logo{
     color: var(--primary-text-color);
@@ -48,6 +52,12 @@ ul {
 
 .contacts-first {
     color: var(--accent-color);
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
 }
 
 .efficiency-section {
@@ -67,7 +77,8 @@ ul {
 }
 
 .button{
-   margin-left: 600px;
+    font-family: 'Roboto';
+   margin-left: 700px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
@@ -122,6 +133,11 @@ letter-spacing: 0.03em;
 
 .logo-footer {
     color: #FFFFFF;
+    font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
 }
 .contact-footer {
     background-color: #2F303A;
@@ -130,6 +146,7 @@ letter-spacing: 0.03em;
 .adress {
     color: #FFFFFF;
     font-weight: 400;
+    font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -137,12 +154,12 @@ color: #FFFFFF;
 }
 
 .contact-adress {
+    font-style: normal;
     font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 /* portfolio  */
 /* main color FFFFFF */
@@ -157,6 +174,10 @@ color: rgba(255, 255, 255, 0.6);
 
    .nav-portfolio a{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
    }
 
    .contacts-portfolio a:hover, .contacts-portfolio a:focus {
@@ -165,6 +186,12 @@ color: var(--primary-text-color);
 
    .contacts-portfolio a {
     color: var(--accent-color);
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
    }
 
    .portfolio-button a:hover, .portfolio-option a:focus {
@@ -175,7 +202,6 @@ color: var(--primary-text-color);
    .portfolio-button a{
     color: var(--title-text-color);
     background-color: #F5F4FA;
-
     font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
